@@ -1,4 +1,4 @@
-/*
+
 package part_four;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -51,4 +51,3 @@ public class UITest {
     }
 
 }
-*/

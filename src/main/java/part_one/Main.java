@@ -25,11 +25,6 @@ public class Main {
         registry.addItem(new Letter("008", "Чарльз Диккенс", "Оливер Твист"));
         registry.addItem(new Letter("009", "Эмили Бронте", "Хитклиф"));
 
-        // Микрофильмы
-        registry.addItem(new Microfilm("010", "Историческое общество", "Газета Правда"));
-        registry.addItem(new Microfilm("011", "Историческое общество", "Советские военные карты"));
-        registry.addItem(new Microfilm("012", "Историческое общество", "Документы Центрального комитета КПСС"));
-
         // Газеты
         registry.addItem(new Newspaper("013", "Таймс", "Ежедневное издание", "Информационно-аналитическая"));
         registry.addItem(new Newspaper("014", "Хранитель", "Еженедельное издание", "Политика"));
@@ -40,12 +35,7 @@ public class Main {
         registry.addItem(new Audiobook("017", "Дж.К. Роулинг", "Гарри Поттер и философский камень", 720));
         registry.addItem(new Audiobook("018", "Дж.Р.Р. Толкиен", "Хоббит", 300));
 
-        // Видеокассеты
-        registry.addItem(new VideoHomeSystem("019", "Стивен Спилберг", "Парк Юрского периода", "HD", 127));
-        registry.addItem(new VideoHomeSystem("020", "Джеймс Кемером", "Терминатор", "HD", 108));
-        registry.addItem(new VideoHomeSystem("021", "Алексей Балабанов", "Брат", "SD", 92));
-
-        // Поиск по ID
+                // Поиск по ID
         String[] idsToSearch = {
                 "001",
                 "017",
@@ -64,9 +54,8 @@ public class Main {
 
         // Поиск по названию
         String[] titlesToSearch = {
-                "1984",
-                "Гарри Поттер и философский камень",
-                "Парк Юрского периода"
+                "Забвение пахнет корицей",
+                "Вечный зов"
         };
 
         for (String title : titlesToSearch) {
