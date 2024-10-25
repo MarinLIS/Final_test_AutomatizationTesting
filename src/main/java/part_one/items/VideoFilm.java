@@ -2,12 +2,12 @@ package part_one.items;
 
 import part_one.interfaces.Format;
 
-public class VideoHomeSystem extends LibraryItem implements Format {
+public class VideoFilm extends LibraryItem implements Format {
     private final String title;
     private final String format;
     private final int durationInMinutes;
 
-    public VideoHomeSystem(String inventoryNumber, String author, String title, String format, int durationInMinutes) {
+    public VideoFilm(String inventoryNumber, String author, String title, String format, int durationInMinutes) {
         super(inventoryNumber, author);
         this.title = title;
         this.format = format;
@@ -25,7 +25,7 @@ public class VideoHomeSystem extends LibraryItem implements Format {
 
     @Override
     public String toString() {
-        return "Видеокассета - " + super.toString()
+        return "Видеолента - " + super.toString()
                + ", Название: " + title +
                ", Характер: " + format +
                ", Продолжительность: " + durationInMinutes + " минут";

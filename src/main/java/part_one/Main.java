@@ -30,12 +30,7 @@ public class Main {
         registry.addItem(new Newspaper("014", "Хранитель", "Еженедельное издание", "Политика"));
         registry.addItem(new Newspaper("015", "Известия", "Ежедневное издание", "Информационно-аналитическая"));
 
-        // Аудиокниги
-        registry.addItem(new Audiobook("016", "Джордж Оруэлл", "1984", 600));
-        registry.addItem(new Audiobook("017", "Дж.К. Роулинг", "Гарри Поттер и философский камень", 720));
-        registry.addItem(new Audiobook("018", "Дж.Р.Р. Толкиен", "Хоббит", 300));
-
-                // Поиск по ID
+        // Поиск по ID
         String[] idsToSearch = {
                 "001",
                 "017",

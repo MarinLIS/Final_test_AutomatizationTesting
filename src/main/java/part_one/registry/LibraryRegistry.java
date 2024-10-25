@@ -46,8 +46,6 @@ public class LibraryRegistry {
                         return ((Book) item).getTitle().equalsIgnoreCase(title);
                     } else if (item instanceof Magazine) {
                         return ((Magazine) item).getTitle().equalsIgnoreCase(title);
-                    } else if (item instanceof Audiobook) {
-                        return ((Audiobook) item).getTitle().equalsIgnoreCase(title);
                     }
                     return false;
                 })
